@@ -68,8 +68,22 @@ for i in range(n,0,-1):
 # 5
 # 4 5
 # 3 4 5
+# 2 3 4 5
+# 1 2 3 4 5
 n = int(input("Enter N: "))
 for i in range(1,n):
     for j in range(n-i+1,n+1):
         print(j,end=" ")
+    print()
+    
+# Q.8 Write a Python program to print the following Right-angled Triangle Numeric Pattern:
+# 1 2 3 4 5
+# 2 3 4 5
+# 3 4 5
+# 4 5
+# 5
+n = int(input("enter: "))
+for i in range(1,n+1):
+    for j in range(i,n+1):
+        print(j, end=" ")
     print()
